@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assignment4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\ext\;CMake Files\..\ext\glfw\;CMake Files\..\ext\glfw\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment4_bin">
+				<Option output="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Assignment4_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/src"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/stb_image"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/glm"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/glfw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment4_bin"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment4_bin/fast">
+				<Option output="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Assignment4_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/src"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/stb_image"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/glm"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/glfw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment4_bin/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/src"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/stb_image"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/glm"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/src"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/stb_image"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/glm"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src"/>
+					<Add directory="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/src"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/cmake-build-debug/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/src/Helpers.cpp">
+			<Option target="Assignment4_bin"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/src/Helpers.h">
+			<Option target="Assignment4_bin"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/src/OFFModel.cpp">
+			<Option target="Assignment4_bin"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/src/OFFModel.h">
+			<Option target="Assignment4_bin"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/src/main.cpp">
+			<Option target="Assignment4_bin"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/cocoa_init.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/cocoa_monitor.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/cocoa_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/cocoa_window.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/iokit_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/iokit_joystick.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/mach_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/nsgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/nsgl_context.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/posix_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/posix_tls.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/ext/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\ext\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/glfw/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\..\ext\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/glfw/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\..\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/glfw/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\..\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/yexu/Documents/GitHub/assignment-4-environment-mapping-and-shadow-mapping-yalexublue/Assignment4/../ext/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\..\ext\glfw\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
